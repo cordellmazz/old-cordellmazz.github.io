@@ -1,72 +1,47 @@
-/* Global styles */
 body {
     font-family: sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-  }
-  
-  a {
-    color: #0077cc;
+}
+
+a {
+    color: #009917;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #c6fed3;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  header h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+header h1 {
     margin: 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
+}
+
+nav ul {
+    list-style: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
     display: inline-block;
-    margin-right: 20px;
-  }
-  
-  /* Main styles */
-  main {
-    margin: 20px;
-  }
-  
-  section {
+    margin-right: 10px;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    background-color:#c6fed3;
+}
+
+section {
     margin-bottom: 40px;
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: disc;
-    margin-left: 20px;
-  }
-  
-  form label, form input, form textarea {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  form input, form textarea {
-    width: 100%;
-  }
-  
-  form button {
-    background-color: #0077cc;
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-  }
+}
